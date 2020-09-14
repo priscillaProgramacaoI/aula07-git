@@ -1,10 +1,16 @@
 package principal;
 
+import modelo.DataHora;
+
 public class Programa01 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		
+		DataHora dtH1,dtH2;
+		dtH1 = new DataHora(8,9,2012);
+		dtH2 = new DataHora(12,12,1950,6,15,0);
+		System.out.println("Data 1: "+dtH1);
+		System.out.println("Data 2: "+dtH2);
 	}
 
 }
